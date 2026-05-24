@@ -209,8 +209,7 @@ plt.tight_layout()
 plt.savefig('robustheit_error.png')
 plt.close(fig2)
 
-# Zusammenfassung
-print("\n=== Zusammenfassung ===")
+
 for alg in algorithms:
     alg_results = [r for r in results if r['algorithm'] == alg]
     if alg_results:
